@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AkashxOp - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(5, 5, 83);
+        height: 80px;
+      }
+
+      .left {
+        font-size: 1.5rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        margin-left: 2rem;
+      }
+
+      .right {
+        margin-right: 2rem;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      nav ul li a:hover {
+        font-size: 1.1rem;
+        color: rgb(75, 75, 225);
+      }
+
+      .firstSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 80px 0;
+        height: 55vh;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 2.1rem;
+        /* margin: 70px 0; */
+      }
+      .RightSection img {
+        width: 80%;
+      }
+      #element {
+        color: rgb(146, 73, 214);
+      }
+
+      main hr{
+        border: 0;
+        height: 2px;
+        margin: 40px 50px;
+        background:rgb(41, 41, 145); 
+      }
+
+      .secondSection{
+        width: 80vw;
+        height: 80vh;
+        margin: auto;
+      }
+
+      .secondSection h1{
+        font-size: 1.9rem;
+      }
+
+      .secondSection .box{
+        color: white;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">AkashxOp's</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Skills</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="firstSection">
+        <div class="leftSection">
+          Hii, My name is <span class="purple">Akash</span>
+          <div>And I'm a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="RightSection">
+          <img src="assets/dev1.png" alt="developer-image" />
+        </div>
+      </div>
+      <hr>
+      
+      <div class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box"></div>
+       </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Full Stack Developer", "MERN-Stack"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
+41:00
