@@ -43,7 +43,7 @@
         text-decoration: none;
       }
       nav ul li a:hover {
-        font-size: 1.1rem;
+        font-weight: 600;
         color: rgb(75, 75, 225);
       }
 
@@ -69,26 +69,62 @@
         color: rgb(146, 73, 214);
       }
 
-      main hr{
+      main hr {
         border: 0;
         height: 2px;
         margin: 40px 50px;
-        background:rgb(41, 41, 145); 
+        background: rgb(41, 41, 145);
       }
 
-      .secondSection{
+      .secondSection {
         width: 80vw;
         height: 80vh;
         margin: auto;
       }
 
-      .secondSection h1{
+      .secondSection h1 {
         font-size: 1.9rem;
       }
 
-      .secondSection .box{
+      .secondSection .box {
         color: white;
+      }
 
+      .box {
+        width: 80vw;
+        background-color: white;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .vertical {
+        height: 96px;
+        width: 1px;
+        background-color: white;
+        margin: 0 85px;
+      }
+
+      .img-top {
+        width: 25px;
+        position: relative;
+        top: -33px;
+        left: -11px;
+      }
+
+      .vertical-title {
+        position: relative;
+        top: 74px;
+        left: -3px;
+      }
+
+      .vertical-description {
+        color: grey;
+        width: 150px;
+        font-size: 10px;
+        position: relative;
+        /* text-align: justify; */
+        top: 87px;
+        left: -3px;
       }
     </style>
   </head>
@@ -117,13 +153,103 @@
           <img src="assets/dev1.png" alt="developer-image" />
         </div>
       </div>
-      <hr>
-      
+      <hr />
+
       <div class="secondSection">
         <span class="text-gray">What I have done so far</span>
-        <h1>Work Experience</h1>
-        <div class="box"></div>
-       </div>
+        <h1>Development Journey</h1>
+        <div class="box">
+          <div class="vertical">
+            <img
+              src="/assets/html-5.png"
+              alt="developer-image"
+              class="img-top"
+            />
+            <div class="vertical-title">Frontend Developer (HTML Focus)</div>
+            <div class="vertical-description">
+              Developed responsive and SEO-friendly web pages using semantic
+              HTML5. Collaborated with designers to convert Figma and PSD
+              layouts into fully functional pages. Ensured accessibility and
+              clean markup structure for improved performance.
+            </div>
+          </div>
+          <div class="vertical">
+            <img
+              src="/assets/css-3.png"
+              alt="developer-image"
+              class="img-top"
+            />
+            <div class="vertical-title">Frontend Designer(CSS3 Focus)</div>
+            <div class="vertical-description">
+              Created visually appealing and user-friendly layouts using modern
+              CSS3 techniques. Implemented animations, transitions, and
+              grid/flexbox layouts. Focused on cross-browser compatibility and
+              consistent UI design across devices.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="/assets/js.png" alt="developer-image" class="img-top" />
+            <div class="vertical-title">Frontend Developer (JavaScript)</div>
+            <div class="vertical-description">
+              Built interactive and dynamic features using vanilla JavaScript.
+              Improved website performance through efficient DOM manipulation
+              and event handling. Worked on form validation, API integration,
+              and small front-end projects.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="/assets/mangodb.png" alt="MongoDB Logo" class="img-top" />
+            <div class="vertical-title">Database Developer (MongoDB Focus)</div>
+            <div class="vertical-description">
+              Designed and managed flexible NoSQL databases using MongoDB.
+              Structured collections for scalability and efficient data
+              retrieval. Integrated MongoDB with Node.js and Express to enable
+              seamless CRUD operations in full-stack projects.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img
+              src="/assets/express.png"
+              alt="Express.js Logo"
+              class="img-top"
+            />
+            <div class="vertical-title">
+              Backend Developer (Express.js Focus)
+            </div>
+            <div class="vertical-description">
+              Built RESTful APIs and backend logic using Express.js. Implemented
+              middleware, routing, and error handling to create efficient
+              server-side applications. Focused on clean, maintainable backend
+              code integrated with MongoDB databases.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img src="/assets/nodejs.png" alt="Node.js Logo" class="img-top" />
+            <div class="vertical-title">Backend Engineer (Node.js Focus)</div>
+            <div class="vertical-description">
+              Developed scalable server-side applications using Node.js.
+              Utilized asynchronous programming and modules to handle API
+              requests and real-time data. Focused on performance optimization
+              and backend architecture.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img src="/assets/reactjs.png" alt="React.js Logo" class="img-top" />
+            <div class="vertical-title">
+              Frontend Developer (React.js Focus)
+            </div>
+            <div class="vertical-description">
+              Created dynamic and responsive user interfaces using React.js.
+              Utilized reusable components, hooks, and state management to
+              deliver interactive, high-performance web applications with modern
+              UI principles.
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <script src="script.js"></script>
@@ -136,4 +262,3 @@
     </script>
   </body>
 </html>
-41:00
