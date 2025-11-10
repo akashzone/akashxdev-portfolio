@@ -34,6 +34,10 @@ The website is fully **responsive**, features **hover effects**, and presents a 
 
 Screenshots : 
 <img width="1897" height="813" alt="image" src="https://github.com/user-attachments/assets/e2994d9f-91ae-4189-9a4a-2b6e090d1972" />
+<img width="1880" height="772" alt="image" src="https://github.com/user-attachments/assets/28249dc1-6cfd-45a6-be46-322f8f798b8b" />
+<img width="1898" height="347" alt="image" src="https://github.com/user-attachments/assets/b4c59aa0-8592-4e64-a17b-153951e37307" />
+
+
 
 
 ---
